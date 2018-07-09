@@ -72,18 +72,15 @@ Authors
 {{- fragment('CREDITS', 'Other credits', sub='~') -}}
 Maintainers
 ~~~~~~~~~~~
-{%- if org_name == 'OCA' %}
 
-This module is maintained by the OCA.
+This module is maintained by Compassion Switzerland.
 
-.. image:: https://odoo-community.org/logo.png
-   :alt: Odoo Community Association
-   :target: https://odoo-community.org
+.. image:: https://upload.wikimedia.org/wikipedia/en/8/83/CompassionInternationalLogo.png
+   :alt: Compassion Switzerland
+   :target: https://www.compassion.ch
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
-promote its widespread use.
-{%- endif %}
+Compassion Switzerland is a nonprofit organization whose
+mission is to release children from extreme poverty in Jesus name.
 
 {%- if manifest.maintainers %}
 {% for maintainer in manifest.maintainers %}
